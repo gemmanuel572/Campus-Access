@@ -9,14 +9,14 @@ DATA_FILE = "requests.json"
 
 def display_menu():
     print("\n=== CAMPUS ACCESS ===")
-    print("1. Create request")
-    print("2. View request")
-    print("3. Approve request")
-    print("4. Issue card")
-    print("5. Return card")
-    print("6. List requests")
-    print("7. Save requests")
-    print("8. Reload requests")
+    print("1. Create Request")
+    print("2. View Request")
+    print("3. Approve Request")
+    print("4. Issue Card")
+    print("5. Return Card")
+    print("6. List Requests")
+    print("7. Save Requests")
+    print("8. Reload Requests")
     print("9. Quit")
 
 
@@ -95,10 +95,10 @@ def main():
 
     while True:
         display_menu()
-        choice = input("Choose an option (1-9): ").strip()
+        choice = input("CHOOSE AN OPTION (1-9): ").strip()
 
         if choice == "9":
-            print("Goodbye!")
+            print("GOODBYE!")
             break
 
         action = actions.get(choice)
